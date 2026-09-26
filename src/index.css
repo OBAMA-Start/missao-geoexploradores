@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+}
+
+button,
+input,
+select,
+textarea {
+  text-transform: uppercase;
+}
